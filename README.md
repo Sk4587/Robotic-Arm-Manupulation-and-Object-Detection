@@ -43,3 +43,5 @@ In general, the robot does the following.
 During our testing, although the robot sometimes failed to detect some objects during the scan, it successfully picked and placed objects with multiple orientations and sizes about 90% of the time. 
 
 **Note:** This project is part of Coursework for COMP0129-Robot Sensing Manipulation and Interaction at University College London. Copyrights under [Dr. Eddie Edwards](https://www.ucl.ac.uk/surgical-robot-vision/eddie-edwards)
+
+The code is hidden to avoid any plagiarism. If you are an academic researcher or a prospective recruiter and wish to see the implementation in detail, please drop a mail to [sreekar.cango@gmail.com](sreekar.cango@gmail.com)
