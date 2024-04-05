@@ -41,3 +41,5 @@ In general, the robot does the following.
 1. The robot returns to its initial position after picking and placing.
 
 During our testing, although the robot sometimes failed to detect some objects during the scan, it successfully picked and placed objects with multiple orientations and sizes about 90% of the time. 
+
+**Note:** This project is part of Coursework for COMP0129-Robot Sensing Manipulation and Interaction at University College London. Copyrights under [Dr. Eddie Edwards](https://www.ucl.ac.uk/surgical-robot-vision/eddie-edwards)
