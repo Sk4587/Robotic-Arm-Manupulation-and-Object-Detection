@@ -36,8 +36,8 @@ In general, the robot does the following.
 
 1. Although methods have been implemented to find the centroid of the objects during the scan, they are not accurate enough to perform a pick operation. Hence, the robot arm moves to the approximate estimated position and aligns itself until the object's centroid is at the centre of the image frame (320,240). A number of fail-safes have been implemented for this step. Sometimes, when the robot arm fails to detect the object, it takes too long to align itself or drifts away too much from the initial point. The robot arm resets its position and tries to scan for objects at different heights. If the execution takes more than 30 seconds, it returns the last estimated centroid.
 
-1. Once the centroid is estimated, the robot performs pick and place, similar to Task 1.
+1. Once the centroid is estimated, depending on the shape and orientation of the object, the robot arm adjusts its position and aligns itself in a pose to pick up the object. Once the object is picked, the robot arm drops the object at the target. 
 
-1. The robot returns to its initial position after the pick and place.
+1. The robot returns to its initial position after picking and placing.
 
 During our testing, although the robot sometimes failed to detect some objects during the scan, it successfully picked and placed objects with multiple orientations and sizes about 90% of the time. 
